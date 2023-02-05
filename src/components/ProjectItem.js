@@ -2,9 +2,9 @@ import React from "react";
 
 function ProjectItem({ name, about, technologies }) {
 
-  const newA = technologies.Map((tech, index)=>{
+  const newA = technologies.map((tech, index)=>{
     return(
-      <span key={[0]}>{tech}</span>
+      <span key={index}>{tech}</span>
 
     )
   }
